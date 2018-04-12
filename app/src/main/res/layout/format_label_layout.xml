@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="338dp"
+    android:layout_height="46dp"
+    android:paddingBottom="6dp"
+    android:background="@drawable/format_select_bg">
+    <LinearLayout
+        android:id="@+id/first_format"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:background="@drawable/list_format"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+
+            android:text="清单"
+            android:textSize="12sp"
+            android:textColor="@drawable/list_format_color"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="1px"
+        android:layout_height="12dp"
+        android:layout_gravity="center"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:id="@+id/second_format"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:background="@drawable/second_format"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:text="清单"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="1px"
+        android:layout_height="12dp"
+        android:layout_gravity="center"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:id="@+id/third_format"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+       >
+        <Button
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:background="@drawable/third_format"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:text="短划线"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="1px"
+        android:layout_height="12dp"
+        android:layout_gravity="center"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:id="@+id/four_format"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:background="@drawable/four_format"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="清单"
+            android:textSize="12sp"
+            android:layout_marginStart="3dp"/>
+    </LinearLayout>
+
+</LinearLayout>
